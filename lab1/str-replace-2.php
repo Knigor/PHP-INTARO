@@ -7,9 +7,12 @@ $newURL = "https://sozd.duma.gov.ru/bill/";
 
 preg_match("/\d+-\d/",$before,$matches);
 
+# тестовое сообщение
 
 $result = $newURL . implode("",$matches);
 
 echo $result, "\n";
+
+
 
 ?>
